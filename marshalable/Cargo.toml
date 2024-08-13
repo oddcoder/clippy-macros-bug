@@ -1,0 +1,7 @@
+[package]
+name = "marshalable"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+marshalable-derive = { workspace = true }

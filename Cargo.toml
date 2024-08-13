@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "marshalable",
+    "marshalable-derive",
+]
+
+[workspace.dependencies]
+# Third party dependencies
+proc-macro2 = "1"
+quote = "1"
+syn = {version = "2", features = ["full"]}
+
+# Common workspace crates
+marshalable = { path = "marshalable" }
+marshalable-derive = { path = "marshalable-derive" }
